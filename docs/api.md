@@ -14,6 +14,14 @@ Response `200`:
 { "status": "ok", "uptime": 12.34 }
 ```
 
+### GET /api/ping
+Liveness check.
+
+Response `200`:
+```json
+{ "status": "ok" }
+```
+
 ## Users
 
 A user looks like:
