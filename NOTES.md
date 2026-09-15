@@ -1,4 +1,3 @@
-cat > NOTES.md << 'EOF'
 # NOTES
 
 **MCP server.** Connected the official 
@@ -57,4 +56,3 @@ scripts, but no `git` and no unrestricted `Bash`, so it can make and
 verify a real code change without being able to commit, push, or run 
 anything outside the npm scripts it needs. It passed lint and all 7 tests 
 (including its own new test) on the first run.
-EOF
