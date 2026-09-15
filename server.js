@@ -2,6 +2,7 @@ const express = require('express');
 const usersRouter = require('./routes/users');
 const healthRouter = require('./routes/health');
 const pingRouter = require('./routes/ping');
+const versionRouter = require('./routes/version');
 
 const app = express();
 app.use(express.json());
@@ -9,6 +10,7 @@ app.use(express.json());
 app.use('/health', healthRouter);
 app.use('/users', usersRouter);
 app.use('/api/ping', pingRouter);
+app.use('/api/version', versionRouter);
 
 const PORT = process.env.PORT || 3000;
 

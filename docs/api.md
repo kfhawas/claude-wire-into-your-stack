@@ -22,6 +22,14 @@ Response `200`:
 { "status": "ok" }
 ```
 
+### GET /api/version
+Returns the API's package version.
+
+Response `200`:
+```json
+{ "version": "1.0.0" }
+```
+
 ## Users
 
 A user looks like:
